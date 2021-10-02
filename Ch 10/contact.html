@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="yoga.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+<header class="content">
+    <h1>Path of Light Yoga Studio</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li> &nbsp;
+        <li><a href="classes.html">Classes</a></li> &nbsp;
+        <li><a href="schedule.html">Schedule</a></li> &nbsp;
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div id="wrapper">
+    <main>
+        <h2>Contact Path of Light Yoga Studio</h2>
+        <p>Required fields are marked with an asterisk. *</p>
+
+        <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+            <label for="myName">* Name:</label>
+            <input type="text" id="myName" name="myName" required="required">
+
+            <label for="myEmail">* E-Mail:</label>
+            <input type="email" id="myEmail" name="myEmail" required="required">
+
+            <label for="myReferral">How did you hear about us?</label>
+            <input type="text" id="myReferral" name="myReferral" list="referral">
+            <datalist id="referral">
+                <option>Google</option>
+                <option>Bing</option>
+                <option>Facebook</option>
+                <option>Friend</option>
+                <option>Radio Ad</option>
+            </datalist>
+
+            <label for="myComments"> * Comments:</label>
+            <textarea id="myComments" name="myComments" rows="2" cols="20" required="required"></textarea>
+            <input type="submit" value="Send Now" id="mySubmit">
+        </form>
+    </main>
+
+    <footer>
+        <br>Copyright &copy; 2020 Path of Light Yoga Studio<br>
+
+        <a href="mailto:hannah@kucavich.com">hannah@kucavich.com</a>
+        <br>
+        <br>
+        <a href="privacy.html">Our Privacy Policy</a>
+    </footer>
+</div>
+
+</body>
+
+</html>

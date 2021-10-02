@@ -1,0 +1,33 @@
+body {color: #40407A; background-color: #F5F5F5;
+    font-family: sans-serif, Verdana,Arial;}
+
+header {background-color: #80CBC4;
+    background-image: url(lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;}
+
+nav  { font-weight: bold;
+    text-align: center;}
+
+nav a { text-decoration: none}
+
+h1  { line-height: 400%;
+    text-indent: 1em;}
+
+img  {background-image: url(yogadoor.jpg);
+    background-position: right;}
+
+img {background-image: url(yogamat.jpg);
+    width: 100%;  }
+
+
+li  { font-size: 90%;}
+
+dd  { font-size: 90%;}
+
+
+
+footer {background-color: #80CBC4;
+    font-size: small;
+    font-style: italic;
+    text-align: center;}

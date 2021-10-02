@@ -1,0 +1,62 @@
+body {color: #40407A; background-color: #40407A;
+    font-family: sans-serif, Verdana, Arial;
+    max-width: 1600px; min-width: 900px;
+    margin: 0;}
+
+header {background-color: #40407A;
+    color: #FFFFFF;
+    background-image: url(sunrise.jpg);
+    background-size: 100% 100%}
+
+nav  {text-align: right;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 1em;}
+
+nav a { text-decoration: none}
+
+
+img  {background-image: url(yogadoor.jpg);
+    background-position: right;}
+
+img {background-image: url(yogamat.jpg);
+    width: 100%;  }
+
+
+li  { font-size: 90%;}
+
+dd  { font-size: 90%;}
+
+footer {font-size: small;
+    font-style: italic;
+    text-align: center;}
+
+#wrapper {margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #F5F5F5;
+    padding: 2em;}
+
+.home {height: 40vh;
+    font-size: 120%;
+    min-height: 300px;
+    padding-top: 6em;
+    padding-left: 8em;}
+
+.content {height: 200px;
+    padding-top: 2em;
+    padding-left: 8em;
+    padding-bottom: 2em;}
+
+#mathero {height: 300px;
+    background-image: url(yogamat.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;}
+
+#loungehero {height: 300px;
+    background-image: url(yogalounge.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;}
+h2 {margin: 0;}
